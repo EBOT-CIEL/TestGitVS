@@ -15,43 +15,51 @@ using namespace std;
 int main()
 {
 	int choix = 0;
-	cout << "================Afficher le menu de votre choix=============" << "\endl";
-	cout << "Estimation du coût d’un abonnement téléphonique" << "\endl";
-	cout << "calcul de caisse " << "\endl";
-	cout << "affichage d'un caratère De son code ASCII" << "\endl";
-	cout << "tables des codes ASCII" << "\endl";
-	cout << "Taille des variables" << "\endl";
-	cout << "jeu de devinette" << "\endl";
-	cout << "Triangle d'étoiles" << "\endl";
-	cout << "écrire votre" << "\endl";
-	cout << "quitter votre programme" << "\endl";
+	cout << "================Afficher le menu de votre choix=============" << endl;
+	cout << "Estimation du coût d’un abonnement téléphonique" << endl;
+	cout << "calcul de caisse " << endl;
+	cout << "affichage d'un caratère De son code ASCII" << endl;
+	cout << "tables des codes ASCII" << endl;
+	cout << "Taille des variables" << endl;
+	cout << "jeu de devinette" << endl;
+	cout << "Triangle d'étoiles" << endl;
+	cout << "écrire votre" << endl;
+	cout << "quitter votre programme" << endl;
 
-	cout << "votre choix" << "\endl";
+	cout << "votre choix" << endl;
 	cin >> choix;
 
-	switch (choix) 
-
-	case 1  << "vous avez choisi le programme 1" << endl;
+	switch (choix)
+	{
+	case 1:
+		cout << "vous avez choisi le programme 1" << endl;
 		break;
 
-	case 2 << "vous avez choisi le programme 2" << endl;
+	case 2:
+		cout << "vous avez choisi le programme 2" << endl;
 		break;
 
-	case 3 << "vous avez choisi le programme 3" << endl;
+	case 3:
+		cout << "vous avez choisi le programme 3" << endl;
 		break;
 
-	case 4 << "vous avez choisi le programme 4" << endl;
-		break;
-	
-	case 5 << "vous avez choisi le programme 5" << endl;
+	case 4:
+		cout << "vous avez choisi le programme 4" << endl;
 		break;
 
-	case 6 << "vous avez choisi le programme 6" << endl;
+	case 5:
+		cout << "vous avez choisi le programme 5" << endl;
 		break;
 
-	case 7 << "vous avez choisi le programme 7" << endl;
+	case 6:
+		cout << "vous avez choisi le programme 6" << endl;
 		break;
 
+	case 7:
+		cout << "vous avez choisi le programme 7" << endl;
 
+		break;
+
+	}
 return 0;
 }

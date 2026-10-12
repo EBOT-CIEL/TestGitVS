@@ -1,8 +1,8 @@
 #include <iostream>
 #include <iomanip>
-
-
-static void Estimation_du_cout_d_un_abonnement_telephonique()
+#include <>
+using namespace std;
+void Estimation_du_cout_d_un_abonnement_telephonique() 
 {
 	char recommencer = 0;
 
